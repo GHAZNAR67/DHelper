@@ -1,0 +1,6 @@
+framework module Pods_DHelper {
+  umbrella header "Pods-DHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -122,6 +122,7 @@ class TaskView: UIView {
         taskLeveland.frame = CGRect(x: 0.1*self.bounds.width, y: 0.75*self.bounds.height, width: 0.3*self.bounds.width, height: 0.18*self.bounds.height)
         taskLeveland.text = taskLevel
         taskLeveland.textAlignment = .center
+        
         if (taskLeveland.text == "Easy") {
             taskLeveland.textColor = UIColor(red: 179/255, green: 255/255, blue: 179/255, alpha: 1)
         }
@@ -136,7 +137,6 @@ class TaskView: UIView {
         self.addSubview(taskLeveland)
         
         if (openTaskViewAndGetExpFromSuccsed == nil){
-            
         }else if (openTaskViewAndGetExpFromSuccsed == false){
         self.moreinfoButton.removeFromSuperview()
         }
